@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Firebase cache and configuration
+.firebase/
+
+# Testing
+/coverage
+
+# Production build
+/build
+
+# Miscellaneous system files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration files
+apphosting.local.yaml
+
+# TypeScript build artifacts
+*.js
+*.js.map
+*.d.ts
